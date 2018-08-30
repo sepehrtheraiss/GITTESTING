@@ -123,7 +123,11 @@ char* sendMSG(struct host* dst,void* payload,unsigned int size)
 /* dynamically allocates buffer for payload */
 char* readMSG(struct host* dst,void** payload)
 {
+<<<<<<< HEAD
     //balh blah blah
+=======
+     // get merge conflict
+>>>>>>> de128761844d586ee953d78cba5a958d89c8df90
     /* 32 bits + 0x + /0 */
     char buffer[HEXSIZE+3];
     if(read(dst->sockfd,buffer,HEXSIZE+3)<0)
