@@ -15,7 +15,7 @@ bool initSock(struct host* h)
                 h->sockfd = socket(AF_INET, SOCK_DGRAM,0);
                 break;
             default:
-                fprintf(stderr,"[proto invalid]\n");
+                fprintf(stderr,"[proto invalid blahblah]\n");
         }
 
         if(h->sockfd < 0){
